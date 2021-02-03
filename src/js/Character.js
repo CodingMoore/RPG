@@ -1,4 +1,4 @@
-export const genChar = {health: 99, armor: 1, defense: 51, strength: 51, attack: 2}
+export const genChar = {health: 100, armor: 0, defense: 50, strength: 50, attack: 1}
 
 export const changeState = (prop) => {
   return (value) => {
