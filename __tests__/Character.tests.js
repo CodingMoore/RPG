@@ -9,6 +9,6 @@ describe('character', () => {
   // });
 
   test("This will test that state exists", () => {
-    expect(storeState()).toEqual({});
+    expect(storeState()()).toEqual({});
   });
 });
