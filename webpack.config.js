@@ -11,6 +11,7 @@ module.exports = {
   },
   devtool: 'eval-source-map',
   devServer: {
+
     contentBase: './dist'
   },
   plugins: [
